@@ -14,7 +14,7 @@ galaxy_classifier/
 │
 ├── app.py
 ├── requirements.txt
-├── random_forest_model.pkl
+├── random_forest_model.pkl     (Download from here: https://1drv.ms/u/c/67d012aebe58245d/ET8o0Ae9JpFHvr-DuFi-Q_ABbnZhlvFFsrQM0s4TOmQS9Q?e=cyG94S)     
 ├── Static/
 │   ├── 1.avif
 │   ├── 2.jpg
