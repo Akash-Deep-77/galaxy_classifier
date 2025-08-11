@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Classification - Output</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The predicted galaxy type is: <strong>{{ prediction }}</strong></p>
+    {% if prediction == 'Starforming' %}
+        <div style="display: flex; justify-content: center; margin: 30px 0;">
+            <img src="/static/sf.jpg" alt="Starforming Galaxy" style="max-width: 420px; width: 100%; border-radius: 18px; box-shadow: 0 4px 32px #1a2980cc;">
+        </div>
+    {% elif prediction == 'Starbursting' %}
+        <div style="display: flex; justify-content: center; margin: 30px 0;">
+            <img src="/static/sb.webp" alt="Starbursting Galaxy" style="max-width: 420px; width: 100%; border-radius: 18px; box-shadow: 0 4px 32px #1a2980cc;">
+        </div>
+    {% endif %}
+    <div class="center-btns">
+        <a href="/input"><button>Predict Another</button></a>
+        <a href="/"><button>Home</button></a>
+    </div>
+</body>
+</html>

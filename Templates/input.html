@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Classification - Input</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Enter Galaxy Features</h1>
+    <form action="/predict" method="post">
+        <label>r: <input type="number" step="any" name="r" required></label><br>
+        <label>i: <input type="number" step="any" name="i" required></label><br>
+        <label>z: <input type="number" step="any" name="z" required></label><br>
+        <label>petroRad_g: <input type="number" step="any" name="petroRad_g" required></label><br>
+        <label>petroRad_r: <input type="number" step="any" name="petroRad_r" required></label><br>
+        <label>petroR50_u: <input type="number" step="any" name="petroR50_u" required></label><br>
+        <label>petroR50_g: <input type="number" step="any" name="petroR50_g" required></label><br>
+        <label>petroR50_i: <input type="number" step="any" name="petroR50_i" required></label><br>
+        <label>petroR50_r: <input type="number" step="any" name="petroR50_r" required></label><br>
+        <label>petroR50_z: <input type="number" step="any" name="petroR50_z" required></label><br>
+        <div class="center-btns">
+            <button type="submit">Predict Galaxy Type</button>
+            <a href="/"><button type="button">Home</button></a>
+        </div>
+    </form>
+</body>
+</html>
