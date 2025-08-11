@@ -4,7 +4,7 @@ This project is a Flask-based web application that predicts the type of galaxy (
 
 ## Features
 - Simple web interface with three pages: Home, Input, and Output
-- Predicts galaxy type using a machine learning model (`random_forest_model.pkl`[here](https://1drv.ms/u/c/67d012aebe58245d/ET8o0Ae9JpFHvr-DuFi-Q_ABbnZhlvFFsrQM0s4TOmQS9Q?e=cyG94S))
+- Predicts galaxy type using a machine learning model (`random_forest_model.pkl`  [MODEL](https://1drv.ms/u/c/67d012aebe58245d/ET8o0Ae9JpFHvr-DuFi-Q_ABbnZhlvFFsrQM0s4TOmQS9Q?e=cyG94S))
 - Displays a relevant image for each prediction
 - Modern, responsive UI with custom styling
 
@@ -14,7 +14,7 @@ galaxy_classifier/
 │
 ├── app.py
 ├── requirements.txt
-├── random_forest_model.pkl     (Download from here: [here](https://1drv.ms/u/c/67d012aebe58245d/ET8o0Ae9JpFHvr-DuFi-Q_ABbnZhlvFFsrQM0s4TOmQS9Q?e=cyG94S))     
+├── random_forest_model.pkl              [Download the MODEL from here.](https://1drv.ms/u/c/67d012aebe58245d/ET8o0Ae9JpFHvr-DuFi-Q_ABbnZhlvFFsrQM0s4TOmQS9Q?e=cyG94S)
 ├── Static/
 │   ├── 1.avif
 │   ├── 2.jpg
