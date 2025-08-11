@@ -1,4 +1,4 @@
-# Galaxy Classification Web App
+# Galaxy Classification using Machine Learning
 
 This project is a Flask-based web application that predicts the type of galaxy (Starforming or Starbursting) using a pre-trained Random Forest model. Users can input 10 galaxy features, and the app will display the predicted class along with a representative image.
 
@@ -10,7 +10,7 @@ This project is a Flask-based web application that predicts the type of galaxy (
 
 ## Folder Structure
 ```
-SDSS/
+galaxy_classifier/
 │
 ├── app.py
 ├── requirements.txt
@@ -34,7 +34,7 @@ SDSS/
 ### 1. Clone or Download the Repository
 ```
 git clone <repo-url>
-cd SDSS
+cd galaxy_classifier
 ```
 
 ### 2. Create and Activate a Virtual Environment (Recommended)
